@@ -18,6 +18,7 @@ groups:
     conditions:
       - >
         glob('src/site/content/en/learn/css/**/*.md') in files or
+        glob('src/site/content/en/learn/css/**/*.yml') in files or
         glob('src/site/_data/courses/css/**/*.yml') in files
 
   # Content
